@@ -2,7 +2,7 @@ import React from "react";
 import './main.css';
 import ShopItemFunc from './components/ShopItemFunc';
 
-function App() {
+function Task1() {
   const item = {
     brand: 'Tiger of Sweden',
     title: 'Leonard coat',
@@ -26,4 +26,4 @@ function App() {
   );
 }
 
-export default App;
+export default Task1;
