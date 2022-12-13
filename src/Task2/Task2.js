@@ -1,5 +1,4 @@
 import React from "react";
-import './main.css';
 import ShopItemClass from './components/ShopItemClass';
 
 function Task2() {

@@ -1,8 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import '../main.css';
-
-function ShopItemFunc({item}) {
+function ShopItemFunc({ item }) {
     return (
         <div className="main-content">
             <h2>{item.brand}</h2>
@@ -28,7 +26,7 @@ ShopItemFunc.prototype = {
         description: PropTypes.string,
         descriptionFull: PropTypes.string,
         price: PropTypes.number,
-        currency: PropTypes.symbol
+        currency: PropTypes.string
     })
 }
 

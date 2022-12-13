@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import '../main.css';
+// import '../main.css';
 
 class ShopItemClass extends React.Component {
     static propType = {
@@ -10,7 +10,7 @@ class ShopItemClass extends React.Component {
             description: PropTypes.string,
             descriptionFull: PropTypes.string,
             price: PropTypes.number,
-            currency: PropTypes.symbol
+            currency: PropTypes.string
         })
     }
 

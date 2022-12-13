@@ -1,8 +1,8 @@
 import React from "react";
-import './main.css';
 import ShopItemFunc from './components/ShopItemFunc';
 
 function Task1() {
+
   const item = {
     brand: 'Tiger of Sweden',
     title: 'Leonard coat',
@@ -13,14 +13,16 @@ function Task1() {
   };
 
   return (
-    <div className="container">
-      <div className="background-element">
-      </div>
-      <div className="highlight-window">
-        <div className='highlight-overlay'></div>
-      </div>
-      <div className="window">
-        <ShopItemFunc item={item} />
+    <div>
+      <div className="container">
+        <div className="background-element">
+        </div>
+        <div className="highlight-window">
+          <div className='highlight-overlay'></div>
+        </div>
+        <div className="window">
+          <ShopItemFunc item={item} />
+        </div>
       </div>
     </div>
   );
